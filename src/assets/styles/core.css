@@ -1,0 +1,8 @@
+:root {
+ --primary: #ff452b;
+ --black: #212121;
+ --black-gray: #263238;
+ --gray: #607d8b;
+ --black-opacity: rgba(0, 0, 0, 0.12);
+ --primary-hover: rgb(178, 48, 30);
+}

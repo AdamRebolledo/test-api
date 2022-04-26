@@ -1,3 +1,9 @@
+@import "./assets/styles/core.css";
+@import "./assets/styles/backgrounds.css";
+@import "./assets/styles/buttons.css";
+@import "./assets/styles/texts.css";
+@import "./assets/styles/utils.css";
+
 body {
  margin: 0;
  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
