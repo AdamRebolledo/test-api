@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&family=Poppins:wght@400;600&display=swap");
+
+h3 {
+ align-self: flex-start;
+ text-align: left;
+ font-weight: 800;
+ line-height: 1.25em;
+ font-size: 1.5625rem;
+ font-family: "Nunito", sans-serif;
+ color: var(--black-gray);
+}
+
+span.microscopy {
+ color: var(--gray);
+ font-size: 0.75rem;
+ line-height: 1.5em;
+ font-family: "Nunito", sans-serif;
+ font-weight: 400;
+ line-height: 1.5;
+ letter-spacing: -0.015rem;
+}
+
+.body1 {
+ font-weight: bold;
+ font-size: 0.875rem;
+ line-height: 1.4em;
+ white-space: nowrap;
+ text-overflow: ellipsis;
+ font-family: "Nunito", sans-serif;
+ letter-spacing: -0.015rem;
+ margin: 0;
+}
