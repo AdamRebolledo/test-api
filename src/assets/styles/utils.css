@@ -1,3 +1,144 @@
 .card-shadow {
  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
 }
+.header {
+ top: 0px;
+ width: 100%;
+ height: 4.5rem;
+ padding: 8px 0px;
+ z-index: 1100;
+ position: fixed;
+ box-shadow: rgb(219 219 219 / 25%) 0px 4px 4px;
+ background-color: var(--white);
+}
+.footer {
+ position: relative;
+ bottom: 0;
+ width: 100%;
+ height: 4.5rem;
+ padding: 15px 0px;
+ z-index: 1100;
+ box-shadow: rgb(219 219 219 / 25%) 0px 4px 4px;
+ background-color: var(--white-gray);
+}
+/* # Mobile */
+@media only screen and (min-width: 480px) {
+ .footer {
+  position: relative;
+ }
+}
+
+/* # Tablet */
+@media only screen and (min-width: 768px) {
+ .footer {
+  position: relative;
+ }
+}
+
+/* # Desktop */
+@media only screen and (min-width: 992px) {
+ .footer {
+  position: relative;
+ }
+}
+
+/* # Huge */
+@media only screen and (min-width: 1280px) {
+ .footer {
+  position: relative;
+ }
+}
+.pt-3 {
+ padding-top: 3em;
+}
+
+.mt-0 {
+ margin-top: 0em;
+}
+
+.mt-3 {
+ margin-top: 3em;
+}
+
+.select-filter {
+ font-size: 0.9rem;
+ border-radius: 50px;
+ display: inline-flex;
+ align-items: center;
+ border-radius: 50px;
+ border: 1px solid var(--black-gray);
+ height: 32px;
+ padding: 10px;
+ margin-top: 8px;
+}
+
+.popover {
+ opacity: 1;
+ transform: none;
+ min-width: 99px;
+ transition: opacity 262ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, transform 174ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+ position: relative;
+ top: 4px;
+ transform-origin: 113px 0px;
+ font-size: 0.9rem;
+ border-radius: 0px 0px 12px 12px;
+ width: min-content;
+ box-shadow: 0px 5px 5px -3px rgb(0 0 0 / 20%), 0px 8px 10px 1px rgb(0 0 0 / 14%), 0px 3px 14px 2px rgb(0 0 0 / 12%);
+ background: var(--white);
+ padding-top: 1px;
+ z-index: 100;
+}
+.popover ul {
+ padding: 0;
+ margin: 2px 0px 0px 0px;
+ border-top: 2px solid #263238;
+}
+.popover li:first-child {
+ color: var(--gray);
+ font-weight: 800;
+ background-color: rgba(0, 0, 0, 0.04);
+}
+.popover li {
+ color: var(--black);
+ width: auto;
+ overflow: hidden;
+ box-sizing: border-box;
+ min-height: auto;
+ font-family: "Nunito", sans-serif;
+ font-weight: 400;
+ line-height: 1.5;
+ padding-top: 6px;
+ white-space: nowrap;
+ letter-spacing: -0.015rem;
+ padding-bottom: 6px;
+ font-size: 0.9rem;
+ padding-left: 16px;
+ padding-right: 16px;
+}
+.popover li:hover {
+ background-color: rgba(0, 0, 0, 0.04);
+}
+.rotate {
+ transform: rotate(180deg);
+}
+.rotateHorizontal {
+ margin-top: 1em;
+ transform: rotate(90deg);
+}
+.absolute {
+ position: absolute;
+}
+.relative {
+ position: relative;
+}
+
+.divider {
+ border: none;
+ height: 1px;
+ margin: 0;
+ flex-shrink: 0;
+ background-color: rgba(0, 0, 0, 0.12);
+}
+.underline-none a {
+ text-decoration: none;
+}

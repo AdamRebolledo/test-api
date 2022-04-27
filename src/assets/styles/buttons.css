@@ -2,7 +2,6 @@
  color: white;
  width: 100%;
  border: 0px;
- margin: 12px;
  display: flex;
  padding: 10px 16px;
  position: relative;
@@ -14,12 +13,16 @@
  border-radius: 100px;
  text-transform: none;
  justify-content: center;
- background-color: #ff452b;
+ background-color: var(--primary);
+ font-family: "Nunito", sans-serif;
+ font-weight: 500;
+ line-height: 1.75;
+ font-size: 1rem;
 }
 
 .primary-button:hover {
  color: white;
  cursor: pointer;
  text-decoration: none;
- background-color: rgb(178, 48, 30);
+ background-color: var(--primary-hover);
 }

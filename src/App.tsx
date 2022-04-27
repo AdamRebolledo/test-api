@@ -1,6 +1,6 @@
 import AppRoutes from "./routes/AppRoutes";
 import { QueryClient, QueryClientProvider } from "react-query";
-
+import { Helmet } from "react-helmet";
 function App() {
  const queryClient = new QueryClient({
   defaultOptions: {
@@ -12,6 +12,9 @@ function App() {
  return (
   <>
    <QueryClientProvider client={queryClient}>
+    <Helmet>
+     <title>Test API</title>
+    </Helmet>
     <AppRoutes />
    </QueryClientProvider>
   </>

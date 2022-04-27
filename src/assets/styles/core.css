@@ -1,8 +1,16 @@
 :root {
  --primary: #ff452b;
  --black: #212121;
+ --white: #ffffff;
+ --white-gray: #fafafa;
  --black-gray: #263238;
  --gray: #607d8b;
  --black-opacity: rgba(0, 0, 0, 0.12);
  --primary-hover: rgb(178, 48, 30);
+}
+
+body {
+ background-image: url("../img/backgrounds/backOrange.png");
+ background-position: left;
+ background-position-x: -20%;
 }
